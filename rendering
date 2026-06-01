@@ -1,0 +1,19 @@
+<!-- This line uses the document object to get the container element. It uses the getElementById method of document with the passed in id app and it is stored in the container variable . -->
+const container = document.getElementById('app');
+
+<!-- This line uses the createRoot method from the ReactDOM library to create a root React node. It takes in the container variable as an argument and it is stored in the root variable. -->
+const root = createRoot(container);
+
+<!-- This line uses the render method of the root variable to render a JSX element. The JSX element is an h1 element with the text Hello world. -->
+root.render(<h1>Hello world</h1>);
+
+
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+// Write code here:
+
+const container = document.getElementById('container');
+const root = createRoot(container);
+root.render(<h1>Hello world</h1>);
+
