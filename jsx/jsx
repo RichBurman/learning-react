@@ -1,0 +1,32 @@
+<!-- // This is a JSX file, which allows us to write HTML-like syntax in our JavaScript code.
+// We can use this syntax to create React elements, which are the building blocks of a React application. -->
+const h1 = <h1>Hello world</h1>;
+
+
+<!-- This JSX element looks exactly like HTML! The only noticeable difference is that you would find it in a JavaScript file, instead of in an HTML file. -->
+<h1>Hello world</h1>
+
+<!-- JSX
+
+JSX elements are treated as JavaScript expressions. They can go anywhere that JavaScript expressions can go. 
+This means that a JSX element can be saved in a variable, passed to a function, stored in an object or array… you name it.
+
+Here’s an example of a JSX element being saved in a variable: -->
+
+const navBar = <nav>I am a nav bar</nav>;
+
+<!-- // Attributes In JSX -->
+
+<!-- JSX elements can have attributes, just like how HTML elements can.
+
+A JSX attribute is written using HTML-like syntax: a name, followed by an equals sign, followed by a value. The value should be wrapped in quotes, like this: -->
+
+my-attribute-name="my-attribute-value"
+
+<!-- Here are some JSX elements with attributes: -->
+ <a href='http://www.example.com'>Welcome to the Web</a>;
+
+const title = <h1 id='title'>Introduction to React.js: Part I</h1>; 
+
+<!-- A single JSX element can have many attributes, just like in HTML: -->
+ const panda = <img src='images/panda.jpg' alt='panda' width='500px' height='500px'>;
